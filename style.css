@@ -3,9 +3,21 @@
 }
 
 body, html {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     background-color: grey;
+}
+
+.page {
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.etch-a-sketch {
+    display: grid;
+    gt
 }
 
 #grid {
@@ -14,7 +26,7 @@ body, html {
     width: 500px;
     height: 500px;
     align-content: flex-start;
-    background-color: white;
+    border: 2px solid black;
 }
 
 .pixel {
