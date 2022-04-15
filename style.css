@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 body, html {
@@ -8,16 +12,11 @@ body, html {
     background-color: grey;
 }
 
-.page {
-    border: 2px solid orange;
+main {
+    /* border: 2px solid orange; */
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.etch-a-sketch {
-    display: grid;
-    gt
 }
 
 #grid {
@@ -26,9 +25,48 @@ body, html {
     width: 500px;
     height: 500px;
     align-content: flex-start;
-    border: 2px solid black;
 }
 
 .pixel {
     background-color: white;
 }
+
+main > div {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 30px;
+}
+
+main > div > button {
+    /* width: 100px;
+    height: 30px; */
+    margin: 8px 0;
+    margin-right: 20px;
+}
+
+button {
+  background-color: rgb(20, 87, 244);
+  border: 1px solid rgb(20, 87, 244);
+  padding: 12px 20px;
+  border-radius: 7px;
+  transition: .3s;
+  color: #fff;
+ }
+ 
+ button:hover {
+  border: 1px solid rgb(20, 87, 244);
+  background-color: #000000;
+  color: rgb(20, 87, 244);
+ }
+ 
+ button:focus {
+  background-color: #000000;
+  outline: none;
+ }

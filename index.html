@@ -2,25 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <title>Etch-A-Sketch</title>
 </head>
 
 <body>
-    <div class="page">
-        <div class="etch-a-sketch">
-            <button class="btn" id="reset-btn">Reset</button>
-            <button class="btn" id="black-btn">Black</button>
-            <button class="btn" id="greyscale-btn">Greyscale</button>
-            <button class="btn" id="rgb-btn">RGB</button>
-            <button class="btn" id="eraser-btn">Eraser</button>
-            <div id="grid"></div>
-        </div>
+  <header>
+    <h1>Etch-A-Sketch</h1>
+  </header>
+  <main>
+    <div>
+      <button id="black-btn">Black</button>
+      <input type="color">
+      <button id="set-color-btn">Set</button>
+      <button id="greyscale-btn">Greyscale</button>
+      <button id="rgb-btn">RGB</button>
+      <button id="eraser-btn">Eraser</button>
+      <button id="reset-btn">Reset</button>
     </div>
+
+    <div id="grid"></div>
+  </main>
 </body>
 
 </html>
